@@ -3,7 +3,7 @@
 const inpStr = "a.b.c.d";
 
 function unPack(str) {
-    const strArr = str.split(".");
+    const strArr = str.split(".").reverse();
     let obj = {}
     let init = ""
     strArr.forEach((x) => {
