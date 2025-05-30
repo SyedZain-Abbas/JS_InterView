@@ -1,3 +1,5 @@
+
+
 let arr = [ "geeks", "for", "geeks", "a", "portal", "to", "learn", "can", "be", "computer", "science", "zoom", "yup", "fire", "in", "be", "data", "geeks" ];
 
 function frequenEle(arr){
@@ -21,4 +23,5 @@ function frequenEle(arr){
   console.log(res);
 }
 
-frequenEle(arr)
+frequenEle(arr);
+console.log(res.join(" "));
